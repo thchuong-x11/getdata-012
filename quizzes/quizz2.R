@@ -15,3 +15,4 @@ data <- read.fwf("data.for", widths = c(15,4,9,4,9,4,9,4,9), skip=4)
 ncol(data)
 nrow(data)
 sum(data[,4])
+data[data$name == "datasharing",45]
